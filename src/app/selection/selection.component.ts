@@ -1,7 +1,6 @@
-import { Component, OnInit } from '@angular/core';
-import { FormGroup, FormControl } from '@angular/forms';
 import { FormBuilder } from '@angular/forms';
 import { Papers } from '../Papers';
+import {Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-selection',
@@ -23,7 +22,6 @@ export class SelectionComponent{
     });
   }
   onSubmit() {
-    // TODO: Use EventEmitter with form value
     this.exam = this.checkoutForm.get('exam').value;
     this.year = this.checkoutForm.get('year').value;
 

@@ -6,6 +6,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { TopBarComponent } from './top-bar/top-bar.component';
 import { SelectionComponent } from './selection/selection.component';
+import { PopupComponent } from './popup/popup.component';
 
 @NgModule({
   imports:[ 
@@ -18,7 +19,8 @@ import { SelectionComponent } from './selection/selection.component';
   declarations:[ 
     AppComponent, 
     TopBarComponent, 
-    SelectionComponent,
+    SelectionComponent, 
+    PopupComponent,
   ],
   bootstrap:[ 
     AppComponent,
