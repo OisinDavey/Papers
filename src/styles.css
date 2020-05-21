@@ -1,0 +1,31 @@
+/* Add application styles & imports to this file! */
+
+/* Global */
+* {
+  font-family: Arial;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Top Bar */
+app-top-bar {
+  width: (100%) - 16px;
+  height: 68px;
+  background-color: #1976d2;
+  padding: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+app-top-bar h1 {
+  color: white;
+  margin: 0;
+}
