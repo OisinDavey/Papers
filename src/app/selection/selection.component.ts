@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FormGroup, FormControl } from '@angular/forms';
 import { Papers } from '../Papers';
 
 @Component({
@@ -6,39 +7,15 @@ import { Papers } from '../Papers';
   templateUrl: './selection.component.html',
   styleUrls: ['./selection.component.css']
 })
-export class SelectionComponent implements OnInit {
+export class SelectionComponent{
 
-  tipe = ""
-  year = ""
-  exam = ""
-  subject = ""
+  profileForm = new FormGroup({
+    firstName: new FormControl(''),
+    lastName: new FormControl(''),
+  });
 
-  updateTipe(text) {
-    this.tipe = text;
+  onSubmit() {
+    // TODO: Use EventEmitter with form value
+    window.alert(this.profileForm.value);
   }
-
-  updateYear(text) {
-    this.year = text;
-  }
-
-  updateExam(text) {
-    this.exam = text;
-  }
-
-  updateSubject(text) {
-    this.subject = text;
-  }
-
-  clearSelection() {
-    this.tipe = "";
-    this.year = "";
-    this.exam = "";
-    this.subject = "";
-  }
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
 }
