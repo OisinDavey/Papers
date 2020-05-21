@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormControl } from '@angular/forms';
+import { FormBuilder } from '@angular/forms';
 import { Papers } from '../Papers';
 
 @Component({
@@ -8,14 +9,28 @@ import { Papers } from '../Papers';
   styleUrls: ['./selection.component.css']
 })
 export class SelectionComponent{
+  checkoutForm;
 
-  profileForm = new FormGroup({
-    firstName: new FormControl(''),
-    lastName: new FormControl(''),
-  });
+  exam;
+  year;
 
+  constructor(
+    private formBuilder: FormBuilder,
+  ) {
+    this.checkoutForm = this.formBuilder.group({
+      exam: '',
+      year: '',
+    });
+  }
   onSubmit() {
     // TODO: Use EventEmitter with form value
-    window.alert(this.profileForm.value);
+    this.exam = this.checkoutForm.get('exam').value;
+    this.year = this.checkoutForm.get('year').value;
+
+    for (var paper of Papers){
+      if (paper.exam == this.exam && paper.year == this.year){
+        break;
+      }
+    }
   }
 }
