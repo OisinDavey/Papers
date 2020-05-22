@@ -1,3 +1,18 @@
-<app-top-bar></app-top-bar>
+<!-- nav -->
+<div class="TopBar">
+  <ul>
+    <li><a class="TopBar-link" routerLink="/">Home</a></li>
+    <li><a class="TopBar-link" routerLink="/maths">Maths</a></li>
+  </ul> 
+</div>
 
-<app-selection></app-selection>
+<!-- main content container -->
+<div class="jumbotron">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8 offset-sm-2">
+                <router-outlet></router-outlet>
+            </div>
+        </div>
+    </div>
+</div>

@@ -3,9 +3,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule } from '@angular/router';
 import { ReactiveFormsModule } from '@angular/forms';
 
+import { appRoutingModule } from './app.routing';
 import { AppComponent } from './app.component';
-import { TopBarComponent } from './top-bar/top-bar.component';
-import { SelectionComponent } from './selection/selection.component';
 import { HomeComponent } from './home';
 import { MathsComponent } from './maths';
 
@@ -13,14 +12,10 @@ import { MathsComponent } from './maths';
   imports:[ 
     BrowserModule, 
     ReactiveFormsModule,
-    RouterModule.forRoot([
-      { path: '', component: TopBarComponent },
-    ])
+    appRoutingModule,
   ],
   declarations:[ 
     AppComponent, 
-    TopBarComponent, 
-    SelectionComponent, 
     HomeComponent,
     MathsComponent,
   ],

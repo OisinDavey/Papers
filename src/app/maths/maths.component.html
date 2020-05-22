@@ -1,1 +1,24 @@
-<h1>Maths Page</h1>
+<body>
+  <form [formGroup]="checkoutForm" (ngSubmit)="onSubmit()">
+
+    <div class="YearBar">
+      <label class="inconsolata" for="year">
+        Year
+      </label>
+    </div>
+    <input id="year" type="text" formControlName="year">
+
+  </form>
+  <div class="Results">
+    <div *ngIf="hasOne">
+      <a href = "{{ oneLink }}">
+        Paper One
+      </a>
+    </div>
+    <div *ngIf="hasTwo">
+      <a href = "{{ twoLink }}">
+        Paper Two
+      </a>
+    </div>
+  </div>
+</body>

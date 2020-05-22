@@ -1,0 +1,23 @@
+.YearBar {
+  color: aliceblue;
+  font-size: 40px;
+  line-height: 40px;
+}
+
+.inconsolata {
+  font-family: "Inconsolata", Courier, monospace;
+}
+
+input {
+  width: 120px;
+}
+
+input[type=text] {
+  padding: 10px 5px;
+  margin: 0px 0;
+  box-sizing: border-box;
+  border: 2px solid rgb(32, 23, 23);
+  border-radius: 8px;
+  font-size: 20px;
+  height: 32px;
+}
