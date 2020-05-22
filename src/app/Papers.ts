@@ -234,3 +234,9 @@ export const MathsPapers = [
     link: "https://drive.google.com/open?id=1jssR1kXDWCgPPUyotRG73Zxoo86bBc8y",
   },
 ];
+export const DCGPapers = [
+];
+export const PhysicsPapers = [
+];
+export const AppliedMathsPapers = [
+];

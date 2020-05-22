@@ -30,9 +30,9 @@ export class SelectionComponent{
 
     for (var paper of MathsPapers){
       if (
-        paper.year == this.year &&
-        paper.tipe == this.tipe && 
-        paper.paper == this.paper
+        (paper.year == this.year) &&
+        (paper.tipe == this.tipe) && 
+        (paper.paper == this.paper || paper.paper == "")
         ){
         window.alert(paper.link)
         break;
