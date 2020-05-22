@@ -38,6 +38,7 @@ export class SelectionComponent{
         paper.tipe == this.tipe && 
         paper.paper == this.paper
         ){
+        window.alert(paper.link)
         break;
       }
     }
