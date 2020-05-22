@@ -2,8 +2,8 @@ export const Papers = [
   {
     tipe: "ExamPaper",
     year: "2019",
-    exam: "LC",
-    subject: "Maths",
-    paper: "https://www.examinations.ie/tmp/1590094732_4852774.pdf",
+    subject: "AppliedMaths",
+    paper: "One",
+    link: "https://www.examinations.ie/?fp=41.112.91.108.41.113.113.113.41.91.108.93.98.99.112.95.39.104.95.113.41.95.114.91.103.106.91.106.95.108.109.41.44.42.43.51.41.70.61.42.44.42.59.70.74.42.42.42.63.80.40.106.94.96.104",
   },
 ];

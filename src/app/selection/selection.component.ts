@@ -10,23 +10,34 @@ import {Component, OnInit} from '@angular/core';
 export class SelectionComponent{
   checkoutForm;
 
-  exam;
+  subject;
   year;
+  tipe;
+  paper;
 
   constructor(
     private formBuilder: FormBuilder,
   ) {
     this.checkoutForm = this.formBuilder.group({
-      exam: '',
+      subject: '',
       year: '',
+      tipe: '',
+      paper: '',
     });
   }
   onSubmit() {
-    this.exam = this.checkoutForm.get('exam').value;
+    this.subject = this.checkoutForm.get('subject').value;
     this.year = this.checkoutForm.get('year').value;
+    this.tipe = this.checkoutForm.get('tipe').value;
+    this.paper = this.checkoutForm.get('paper').value;
 
     for (var paper of Papers){
-      if (paper.exam == this.exam && paper.year == this.year){
+      if (
+        paper.subject == this.subject && 
+        paper.year == this.year &&
+        paper.tipe == this.tipe && 
+        paper.paper == this.paper
+        ){
         break;
       }
     }
