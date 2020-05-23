@@ -32,15 +32,21 @@ export class MathsComponent{
     this.year = this.checkoutForm.get('year').value;
     this.hasOne = false;
     this.hasTwo = false;
+    this.hasMark = false;
 
     for (var paper of MathsPapers){
       if ( (paper.year == this.year) ){
-        if(paper.paper == "One"){
-          this.hasOne = true;
-          this.oneLink = paper.link;
-        }else if(paper.paper == "Two"){
-          this.hasTwo = true;
-          this.twoLink = paper.link;
+        if(paper.tipe == "ExamPaper"){
+          if(paper.paper == "One"){
+            this.hasOne = true;
+            this.oneLink = paper.link;
+          }else if(paper.paper == "Two"){
+            this.hasTwo = true;
+            this.twoLink = paper.link;
+          }
+        }else{
+          this.hasMark = true;
+          this.markLink = paper.link;
         }
       }
     }

@@ -230,8 +230,122 @@ export const MathsPapers = [
   {
     tipe: "ExamPaper",
     year: "2000",
-    paper: "",
+    paper: "One",
     link: "https://drive.google.com/open?id=1jssR1kXDWCgPPUyotRG73Zxoo86bBc8y",
+  },
+  {
+    tipe: "MarkingScheme",
+    year: "2019",
+    paper: "",
+    link: "https://drive.google.com/open?id=1p_ARszktKYOhC4Q2IaLn-q4l7GjhK94k",
+  },
+  {
+    tipe: "MarkingScheme",
+    year: "2018",
+    paper: "",
+    link: "https://drive.google.com/open?id=1YVaNtFcwvNzrMtJ6e8i1abcHIHr8_uP8",
+  },
+  {
+    tipe: "MarkingScheme",
+    year: "2017",
+    paper: "",
+    link: "https://drive.google.com/open?id=1vnzKZf89e1uIwGMVeoipQ3PRavnhylWV",
+  },
+  {
+    tipe: "MarkingScheme",
+    year: "2016",
+    paper: "",
+    link: "https://drive.google.com/open?id=1nqv0sv8oUDlFJ9kCv78nHNKftq3LgPC1",
+  },
+  {
+    tipe: "MarkingScheme",
+    year: "2015",
+    paper: "",
+    link: "https://drive.google.com/open?id=1C8w80o1gIc2c1Wa6OkErd_K6xA8J6k9e",
+  },
+  {
+    tipe: "MarkingScheme",
+    year: "2014",
+    paper: "",
+    link: "https://drive.google.com/open?id=1lYZjktbOPiMWtTCxMqxJVLrT6UAkIvH0",
+  },
+  {
+    tipe: "MarkingScheme",
+    year: "2013",
+    paper: "",
+    link: "https://drive.google.com/open?id=1PPrtQYSXDL8PXbs7cZqEPudDlwstLu7T",
+  },
+  {
+    tipe: "MarkingScheme",
+    year: "2012",
+    paper: "",
+    link: "https://drive.google.com/open?id=15QOr4GhZMDdNy783ZKvrZzY-Qirc678p",
+  },
+  {
+    tipe: "MarkingScheme",
+    year: "2011",
+    paper: "",
+    link: "https://drive.google.com/open?id=1lqkSNcgCH3LW7_OIcAX5CNLpP8VR6jop",
+  },
+  {
+    tipe: "MarkingScheme",
+    year: "2010",
+    paper: "",
+    link: "https://drive.google.com/open?id=1bHve1w4EtG5r3-NSqkXqHTyXTE4dmiRT",
+  },
+  {
+    tipe: "MarkingScheme",
+    year: "2009",
+    paper: "",
+    link: "https://drive.google.com/open?id=1LZf6vaPwA7gENC9jFmVkW0Wa2LcIFcX1",
+  },
+  {
+    tipe: "MarkingScheme",
+    year: "2008",
+    paper: "",
+    link: "https://drive.google.com/open?id=1AJzWDteZ_6_InIxh8OvbRPYgw478mWy0",
+  },
+  {
+    tipe: "MarkingScheme",
+    year: "2007",
+    paper: "",
+    link: "https://drive.google.com/open?id=1cwhO_gFzHRhD_F6FAO8dQyoRBSYi2IOu",
+  },
+  {
+    tipe: "MarkingScheme",
+    year: "2006",
+    paper: "",
+    link: "https://drive.google.com/open?id=1n3Vv93xtyfFbO02aLRX2gpFICgvTU_cR",
+  },
+  {
+    tipe: "MarkingScheme",
+    year: "2005",
+    paper: "",
+    link: "https://drive.google.com/open?id=1GOlZmIBJHhqUfSM5H47-MmRdRSyldpHe",
+  },
+  {
+    tipe: "MarkingScheme",
+    year: "2004",
+    paper: "",
+    link: "https://drive.google.com/open?id=1MKImss2BE3mgArW0dOoKBaSNBQswiujs",
+  },
+  {
+    tipe: "MarkingScheme",
+    year: "2003",
+    paper: "",
+    link: "https://drive.google.com/open?id=1x3KkT9StyamE-k4vFr2RIV37iP1mQJbp",
+  },
+  {
+    tipe: "MarkingScheme",
+    year: "2002",
+    paper: "",
+    link: "https://drive.google.com/open?id=1KIg4EL2iSBL6qmGfYggZUzR7Gf1SnceW",
+  },
+  {
+    tipe: "MarkingScheme",
+    year: "2001",
+    paper: "",
+    link: "https://drive.google.com/open?id=1UlNcocsJNVJ0Exy_5HlhcDTJXOdPARWj",
   },
 ];
 export const DCGPapers = [
@@ -239,4 +353,219 @@ export const DCGPapers = [
 export const PhysicsPapers = [
 ];
 export const AppliedMathsPapers = [
+  {
+    tipe: "ExamPaper",
+    year: "2019",
+    link: "https://drive.google.com/open?id=18OalbjR3JV9ShtAQ9_oISxzNbTirr7XO",
+  },
+  {
+    tipe: "ExamPaper",
+    year: "2018",
+    link: "https://drive.google.com/open?id=1TRWWlyQvwZWHQDCj0lKNvjutdVjoMzkp",
+  },
+  {
+    tipe: "ExamPaper",
+    year: "2017",
+    link: "https://drive.google.com/open?id=1kpn9b-SdoL5xjsrfy4S_-6fhXN77EMvg",
+  },
+  {
+    tipe: "ExamPaper",
+    year: "2016",
+    link: "https://drive.google.com/open?id=1QhEUQBwsmtaX8DG2VKQ57b4aKIquayFD",
+  },
+  {
+    tipe: "ExamPaper",
+    year: "2015",
+    link: "https://drive.google.com/open?id=1S9sAIOGg1eKEzB6vw0pHousuYOTH_lYH",
+  },
+  {
+    tipe: "ExamPaper",
+    year: "2014",
+    link: "https://drive.google.com/open?id=1bYR-B85DiVS0pMQbtviH0ERJOxjWnEDd",
+  },
+  {
+    tipe: "ExamPaper",
+    year: "2013",
+    link: "https://drive.google.com/open?id=1wF0LL4FnM8QMIBC-bGmwlmBh7PVvffGw",
+  },
+  {
+    tipe: "ExamPaper",
+    year: "2012",
+    link: "https://drive.google.com/open?id=1cU3_A9Y5CmX2gGZ_M0rORiQdINuPFSiy",
+  },
+  {
+    tipe: "ExamPaper",
+    year: "2011",
+    link: "https://drive.google.com/open?id=16h7Nd-v1XgmljvYSrT6T5OTGkJSgK5qY",
+  },
+  {
+    tipe: "ExamPaper",
+    year: "2010",
+    link: "https://drive.google.com/open?id=1LW5YSeeQfcOjcZSJ7jhArDFdm1C1xeWQ",
+  },
+  {
+    tipe: "ExamPaper",
+    year: "2009",
+    link: "https://drive.google.com/open?id=1o11M8t6Z3-ZiQbUTxTD-RTra_1r0oTXT",
+  },
+  {
+    tipe: "ExamPaper",
+    year: "2008",
+    link: "https://drive.google.com/open?id=1LC1xXWfYFEKSpL1Gy9NRgEFBQxXns0i4",
+  },
+  {
+    tipe: "ExamPaper",
+    year: "2007",
+    link: "https://drive.google.com/open?id=1RNuJDDDYXCyClHQ_uKT5BAJRpqylFjkz",
+  },
+  {
+    tipe: "ExamPaper",
+    year: "2006",
+    link: "https://drive.google.com/open?id=1GmdzZN8FQ44s5YO2x0e2Z_tjuSGUaTSw",
+  },
+  {
+    tipe: "ExamPaper",
+    year: "2005",
+    link: "https://drive.google.com/open?id=1XAKWd89MWtU3RQ5IrUU-jJeHlwj95Bnx",
+  },
+  {
+    tipe: "ExamPaper",
+    year: "2004",
+    link: "https://drive.google.com/open?id=1kEN4qvQO8uE5wtmYRtdCv3Hr8-N3Nrbs",
+  },
+  {
+    tipe: "ExamPaper",
+    year: "2003",
+    link: "https://drive.google.com/open?id=1ono2UXJsvr154ZpOMKZyRC0D5DZ2M-Bm",
+  },
+  {
+    tipe: "ExamPaper",
+    year: "2002",
+    link: "https://drive.google.com/open?id=1vdsO_5trndSHiD2IaasIi890acCNVeik",
+  },
+  {
+    tipe: "ExamPaper",
+    year: "2001",
+    link: "https://drive.google.com/open?id=1fSgXcOCbGt99WMPtkSc-GPfTceglopXv",
+  },
+  {
+    tipe: "ExamPaper",
+    year: "2000",
+    link: "https://drive.google.com/open?id=1-XVmnM0gTOUQjWwbBQHaGpy7Ep_O-mBB",
+  },
+  {
+    tipe: "ExamPaper",
+    year: "1999",
+    link: "https://drive.google.com/open?id=10AO4fAn5AIRcx86RDyjQStEgUukRpgYd",
+  },
+  {
+    tipe: "ExamPaper",
+    year: "1998",
+    link: "https://drive.google.com/open?id=1wcD_k6mLGpptnr9fuc3zABk61nnmCuFU",
+  },
+  {
+    tipe: "ExamPaper",
+    year: "1997",
+    link: "https://drive.google.com/open?id=1D4NbHe64YGKxyvbgM8C6gn_xcvncP-sd",
+  },
+  {
+    tipe: "ExamPaper",
+    year: "1996",
+    link: "https://drive.google.com/open?id=136klzqJ0IEzzCVCHsVwXeZtlM81-NxDv",
+  },
+  {
+    tipe: "MarkingScheme",
+    year: "2019",
+    link: "https://drive.google.com/open?id=18KB0l8KpNufjrluQnlA9V5ayngyZ3uPy",
+  },
+  {
+    tipe: "MarkingScheme",
+    year: "2018",
+    link: "https://drive.google.com/open?id=1dcULeEoT0a0DemDfkJqYswPq_lwfFZkR",
+  },
+  {
+    tipe: "MarkingScheme",
+    year: "2017",
+    link: "https://drive.google.com/open?id=1TvlMxMpKcXvz1mSkHuQ_Ij_09lmSrhSx",
+  },
+  {
+    tipe: "MarkingScheme",
+    year: "2016",
+    link: "https://drive.google.com/open?id=1Yjg-QrU7c8NsLETQiTdtRCjCbLFPLB1w",
+  },
+  {
+    tipe: "MarkingScheme",
+    year: "2015",
+    link: "https://drive.google.com/open?id=1HWvLhZtLmxcIP_kkzr88Ljw5X3wbGWse",
+  },
+  {
+    tipe: "MarkingScheme",
+    year: "2014",
+    link: "https://drive.google.com/open?id=1urQzRPVAEFBCxXUChuTBQPOyOFUd2zYd",
+  },
+  {
+    tipe: "MarkingScheme",
+    year: "2013",
+    link: "https://drive.google.com/open?id=1W_xmlEY8qqIeGadeT0s6_1M_sA0kl5VG",
+  },
+  {
+    tipe: "MarkingScheme",
+    year: "2012",
+    link: "https://drive.google.com/open?id=1o0C-K1OacQQYiMO36STFkn8l6YVhlkVv",
+  },
+  {
+    tipe: "MarkingScheme",
+    year: "2011",
+    link: "https://drive.google.com/open?id=1Ij6tWqmPRjAd-2o4lXUdEogNk_qGrrAK",
+  },
+  {
+    tipe: "MarkingScheme",
+    year: "2010",
+    link: "https://drive.google.com/open?id=1JH5m2anpflCJXXfBhyVxS6bVQKQOxv8w",
+  },
+  {
+    tipe: "MarkingScheme",
+    year: "2009",
+    link: "https://drive.google.com/open?id=1RGP3LrCqA6yTVXs1AwYQfrIkz9QB0Kjm",
+  },
+  {
+    tipe: "MarkingScheme",
+    year: "2008",
+    link: "https://drive.google.com/open?id=1at91tqXo-8t7qADThV2Adrd8KTIFS88L",
+  },
+  {
+    tipe: "MarkingScheme",
+    year: "2007",
+    link: "https://drive.google.com/open?id=1QhvRUotZFM34pDTOFOzxDFoaKBmZSXbd",
+  },
+  {
+    tipe: "MarkingScheme",
+    year: "2006",
+    link: "https://drive.google.com/open?id=1-Tli7wfllCZrmq0vBPMSaaydfkzRRzXP",
+  },
+  {
+    tipe: "MarkingScheme",
+    year: "2005",
+    link: "https://drive.google.com/open?id=1LaaANcd-INzl2KgZgu51DCMpAhGXH_v4",
+  },
+  {
+    tipe: "MarkingScheme",
+    year: "2004",
+    link: "https://drive.google.com/open?id=1DShteCz0kGZSTxolf7HlWFDAKyOKRGli",
+  },
+  {
+    tipe: "MarkingScheme",
+    year: "2003",
+    link: "https://drive.google.com/open?id=1huuTmRBVtjYAk2WRg-KnZHj5SBCtTRwp",
+  },
+  {
+    tipe: "MarkingScheme",
+    year: "2002",
+    link: "https://drive.google.com/open?id=1zd749H3nyALXKBpEq5hb66fhT3gxdvb6",
+  },
+  {
+    tipe: "MarkingScheme",
+    year: "2001",
+    link: "https://drive.google.com/open?id=1YArure4t_LHGYKc5g4RZnPxaGIB1WorE",
+  },
 ];

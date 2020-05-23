@@ -11,10 +11,6 @@ body {
   font-family: Arial;
 }
 
-a:hover {
-  opacity: 0.8;
-}
-
 a {
   text-decoration: none;
 }

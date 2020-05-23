@@ -1,11 +1,19 @@
 .YearBar {
-  color: aliceblue;
-  font-size: 40px;
+  color: rgb(68, 142, 207);
+  font-size: 30px;
   line-height: 40px;
+}
+
+.Title h1 {
+  color: aliceblue;
 }
 
 .inconsolata {
   font-family: "Inconsolata", Courier, monospace;
+}
+
+.trebuchet {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
 input {
@@ -23,7 +31,7 @@ input[type=text] {
 }
 
 .Results {
-  background-color: rgb(41, 95, 43);
+  background-color: rgb(68, 142, 207);
   list-style-type: none;
   text-align: center; 
   padding: 0;
@@ -31,7 +39,7 @@ input[type=text] {
   box-sizing: border-box;
   border-radius: 4px;
   font-size: 20px;
-  height: 40px;
+  height: 85px;
 }
 
 .Results li {

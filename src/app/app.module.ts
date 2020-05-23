@@ -3,10 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule } from '@angular/router';
 import { ReactiveFormsModule } from '@angular/forms';
 
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
+
 import { appRoutingModule } from './app.routing';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home';
 import { MathsComponent } from './maths';
+import { AppliedMathsComponent } from './applied-maths';
 
 @NgModule({
   imports:[ 
@@ -18,7 +21,11 @@ import { MathsComponent } from './maths';
     AppComponent, 
     HomeComponent,
     MathsComponent,
+    AppliedMathsComponent,
   ],
-  bootstrap:[ AppComponent,]
+  providers: [{provide: LocationStrategy, useClass: HashLocationStrategy}],
+  bootstrap:[ 
+    AppComponent,
+  ]
 })
 export class AppModule { }
