@@ -11,6 +11,7 @@ import { HomeComponent } from './home';
 import { MathsComponent } from './maths';
 import { AppliedMathsComponent } from './applied-maths';
 import { PhysicsComponent } from './physics';
+import { DcgComponent } from './dcg';
 
 @NgModule({
   imports:[ 
@@ -24,6 +25,7 @@ import { PhysicsComponent } from './physics';
     MathsComponent,
     AppliedMathsComponent,
     PhysicsComponent,
+    DcgComponent,
   ],
   providers: [{provide: LocationStrategy, useClass: HashLocationStrategy}],
   bootstrap:[ 
