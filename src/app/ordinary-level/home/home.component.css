@@ -1,0 +1,12 @@
+.Title h1 {
+  color: aliceblue;
+}
+
+.Intro a {
+  color: rgb(68, 142, 207);
+}
+
+.Intro li {
+  list-style-type: none;
+  padding: 16px;
+}

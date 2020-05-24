@@ -7,8 +7,11 @@ import { OrdinaryLevelComponent } from './ordinary-level';
 import { HLHomeComponent } from './higher-level/home';
 import { HLMathsComponent } from './higher-level/maths';
 import { HLAppliedMathsComponent} from './higher-level/applied-maths';
-import { HLPhysicsComponent} from './higher-level/physics'
-import { HLDcgComponent} from './higher-level/dcg'
+import { HLPhysicsComponent} from './higher-level/physics';
+import { HLDcgComponent} from './higher-level/dcg';
+
+import { OLHomeComponent } from './ordinary-level/home';
+import { OLEnglishComponent } from './ordinary-level/english';
 
 const routes: Routes = [
     { 
@@ -50,6 +53,19 @@ const routes: Routes = [
       path: 'ordinary-level', 
       component: OrdinaryLevelComponent,
       children: [
+        {
+          path: 'home',
+          component: OLHomeComponent,
+        },
+        {
+          path: 'english',
+          component: OLEnglishComponent,
+        },
+        {
+          path: '**',
+          redirectTo: 'home',
+          pathMatch: 'full'
+        },
       ],
     },
 

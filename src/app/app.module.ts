@@ -17,6 +17,9 @@ import { HLAppliedMathsComponent } from './higher-level/applied-maths';
 import { HLPhysicsComponent } from './higher-level/physics';
 import { HLDcgComponent } from './higher-level/dcg';
 
+import { OLHomeComponent } from './ordinary-level/home';
+import { OLEnglishComponent } from './ordinary-level/english';
+
 @NgModule({
   imports:[ 
     BrowserModule, 
@@ -34,6 +37,9 @@ import { HLDcgComponent } from './higher-level/dcg';
     HLAppliedMathsComponent,
     HLPhysicsComponent,
     HLDcgComponent,
+
+    OLHomeComponent,
+    OLEnglishComponent,
   ],
   providers: [{provide: LocationStrategy, useClass: HashLocationStrategy}],
   bootstrap:[ 
