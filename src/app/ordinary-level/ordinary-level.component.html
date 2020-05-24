@@ -1,0 +1,22 @@
+<div class="head">
+  <ul>
+    <li><a routerLink="/">Home</a></li>
+    <li><a routerLink="/higher-level">Higher Level</a></li>
+    <li><a class="active" routerLink="/ordinary-level">Ordinary Level</a></li>
+  </ul>
+</div>
+
+<div class="TopBar">
+  <ul>
+  </ul> 
+</div>
+
+<div class="jumbotron">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8 offset-sm-2">
+                <router-outlet></router-outlet>
+            </div>
+        </div>
+    </div>
+</div>

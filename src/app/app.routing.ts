@@ -1,11 +1,14 @@
 import { Routes, RouterModule } from '@angular/router';
 
 import { HomeComponent } from './home';
-import { HigherLevelComponent } from './higher-level'
-import { MathsComponent } from './higher-level/maths';
-import { AppliedMathsComponent} from './higher-level/applied-maths';
-import { PhysicsComponent} from './higher-level/physics'
-import { DcgComponent} from './higher-level/dcg'
+import { HigherLevelComponent } from './higher-level';
+import { OrdinaryLevelComponent } from './ordinary-level';
+
+import { HLHomeComponent } from './higher-level/home';
+import { HLMathsComponent } from './higher-level/maths';
+import { HLAppliedMathsComponent} from './higher-level/applied-maths';
+import { HLPhysicsComponent} from './higher-level/physics'
+import { HLDcgComponent} from './higher-level/dcg'
 
 const routes: Routes = [
     { 
@@ -17,27 +20,37 @@ const routes: Routes = [
       component: HigherLevelComponent,
       children: [
         {
+          path: 'home',
+          component: HLHomeComponent,
+        },
+        {
           path: 'applied-maths',
-          component: AppliedMathsComponent,
+          component: HLAppliedMathsComponent,
         },
         {
           path: 'maths',
-          component: MathsComponent,
+          component: HLMathsComponent,
         },
         {
           path: 'physics',
-          component: PhysicsComponent,
+          component: HLPhysicsComponent,
         },
         {
           path: 'dcg',
-          component: DcgComponent,
+          component: HLDcgComponent,
         },
         {
           path: '**',
-          redirectTo: '',
+          redirectTo: 'home',
           pathMatch: 'full'
         },
-      ]
+      ],
+    },
+    {
+      path: 'ordinary-level', 
+      component: OrdinaryLevelComponent,
+      children: [
+      ],
     },
 
     // otherwise redirect to home

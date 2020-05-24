@@ -9,10 +9,13 @@ import { appRoutingModule } from './app.routing';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home';
 import { HigherLevelComponent } from './higher-level';
-import { MathsComponent } from './higher-level/maths';
-import { AppliedMathsComponent } from './higher-level/applied-maths';
-import { PhysicsComponent } from './higher-level/physics';
-import { DcgComponent } from './higher-level/dcg';
+import { OrdinaryLevelComponent } from './ordinary-level';
+
+import { HLHomeComponent } from './higher-level/home';
+import { HLMathsComponent } from './higher-level/maths';
+import { HLAppliedMathsComponent } from './higher-level/applied-maths';
+import { HLPhysicsComponent } from './higher-level/physics';
+import { HLDcgComponent } from './higher-level/dcg';
 
 @NgModule({
   imports:[ 
@@ -23,11 +26,14 @@ import { DcgComponent } from './higher-level/dcg';
   declarations:[ 
     AppComponent, 
     HomeComponent,
-    MathsComponent,
-    AppliedMathsComponent,
-    PhysicsComponent,
-    DcgComponent,
     HigherLevelComponent,
+    OrdinaryLevelComponent,
+
+    HLHomeComponent,
+    HLMathsComponent,
+    HLAppliedMathsComponent,
+    HLPhysicsComponent,
+    HLDcgComponent,
   ],
   providers: [{provide: LocationStrategy, useClass: HashLocationStrategy}],
   bootstrap:[ 

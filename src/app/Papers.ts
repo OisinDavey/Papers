@@ -1,4 +1,4 @@
-export const MathsPapers = [
+export const HLMathsPapers = [
   {
     tipe: "ExamPaper",
     year: "2019",
@@ -348,7 +348,7 @@ export const MathsPapers = [
     link: "https://drive.google.com/open?id=1UlNcocsJNVJ0Exy_5HlhcDTJXOdPARWj",
   },
 ];
-export const DCGPapers = [
+export const HLDCGPapers = [
   {
     tipe: "ExamPaper",
     year: "2019",
@@ -537,9 +537,9 @@ export const DCGPapers = [
     link: "https://drive.google.com/open?id=17IS7_uY3liOUjBzBHM4e4cA1r01Ncsa1",
   },
 ];
-export const PhysicsPapers = [
+export const HLPhysicsPapers = [
 ];
-export const AppliedMathsPapers = [
+export const HLAppliedMathsPapers = [
   {
     tipe: "ExamPaper",
     year: "2019",

@@ -1,5 +1,5 @@
 import { FormBuilder } from '@angular/forms';
-import { AppliedMathsPapers } from '../../Papers';
+import { HLAppliedMathsPapers } from '../../Papers';
 import {Component, OnInit} from '@angular/core';
 
 @Component({
@@ -7,7 +7,7 @@ import {Component, OnInit} from '@angular/core';
   templateUrl: 'applied-maths.component.html',
   styleUrls: ['applied-maths.component.css']
 })
-export class AppliedMathsComponent{
+export class HLAppliedMathsComponent{
   checkoutForm;
 
   year;
@@ -31,7 +31,7 @@ export class AppliedMathsComponent{
     this.hasPaper = false;
     this.hasMark = false;
 
-    for (var paper of AppliedMathsPapers){
+    for (var paper of HLAppliedMathsPapers){
       if ( (paper.year == this.year) ){
         if(paper.tipe == "ExamPaper"){
           this.hasPaper = true;

@@ -1,5 +1,5 @@
 import { FormBuilder } from '@angular/forms';
-import { DCGPapers } from '../../Papers';
+import { HLDCGPapers } from '../../Papers';
 import {Component, OnInit} from '@angular/core';
 
 @Component({
@@ -7,7 +7,7 @@ import {Component, OnInit} from '@angular/core';
   templateUrl: './dcg.component.html',
   styleUrls: ['./dcg.component.css']
 })
-export class DcgComponent{
+export class HLDcgComponent{
   checkoutForm;
 
   year;
@@ -34,7 +34,7 @@ export class DcgComponent{
     this.hasSectionB = false;
     this.hasMark = false;
 
-    for (var paper of DCGPapers){
+    for (var paper of HLDCGPapers){
       if ( (paper.year == this.year) ){
         if(paper.tipe == "ExamPaper"){
           if(paper.paper == "A"){
