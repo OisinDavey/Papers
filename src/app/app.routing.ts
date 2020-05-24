@@ -1,17 +1,44 @@
 import { Routes, RouterModule } from '@angular/router';
 
 import { HomeComponent } from './home';
-import { MathsComponent } from './maths';
-import { AppliedMathsComponent} from './applied-maths';
-import { PhysicsComponent} from './physics'
-import { DcgComponent} from './dcg'
+import { HigherLevelComponent } from './higher-level'
+import { MathsComponent } from './higher-level/maths';
+import { AppliedMathsComponent} from './higher-level/applied-maths';
+import { PhysicsComponent} from './higher-level/physics'
+import { DcgComponent} from './higher-level/dcg'
 
 const routes: Routes = [
-    { path: '', component: HomeComponent },
-    { path: 'maths', component: MathsComponent },
-    { path: 'applied-maths', component: AppliedMathsComponent },
-    { path: 'physics', component: PhysicsComponent },
-    { path: 'dcg', component: DcgComponent },
+    { 
+      path: '',
+      component: HomeComponent 
+    },
+    { 
+      path: 'higher-level', 
+      component: HigherLevelComponent,
+      children: [
+        {
+          path: 'applied-maths',
+          component: AppliedMathsComponent,
+        },
+        {
+          path: 'maths',
+          component: MathsComponent,
+        },
+        {
+          path: 'physics',
+          component: PhysicsComponent,
+        },
+        {
+          path: 'dcg',
+          component: DcgComponent,
+        },
+        {
+          path: '**',
+          redirectTo: '',
+          pathMatch: 'full'
+        },
+      ]
+    },
 
     // otherwise redirect to home
     { path: '**', redirectTo: '' }

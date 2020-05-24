@@ -8,10 +8,11 @@ import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 import { appRoutingModule } from './app.routing';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home';
-import { MathsComponent } from './maths';
-import { AppliedMathsComponent } from './applied-maths';
-import { PhysicsComponent } from './physics';
-import { DcgComponent } from './dcg';
+import { HigherLevelComponent } from './higher-level';
+import { MathsComponent } from './higher-level/maths';
+import { AppliedMathsComponent } from './higher-level/applied-maths';
+import { PhysicsComponent } from './higher-level/physics';
+import { DcgComponent } from './higher-level/dcg';
 
 @NgModule({
   imports:[ 
@@ -26,6 +27,7 @@ import { DcgComponent } from './dcg';
     AppliedMathsComponent,
     PhysicsComponent,
     DcgComponent,
+    HigherLevelComponent,
   ],
   providers: [{provide: LocationStrategy, useClass: HashLocationStrategy}],
   bootstrap:[ 

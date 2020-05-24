@@ -1,0 +1,30 @@
+<body>
+
+  <div class="Title">
+    <h1>Applied Maths Papers</h1>
+  </div>
+
+  <form [formGroup]="checkoutForm" (ngSubmit)="onSubmit()">
+
+    <input id="year" type="text" formControlName="year" placeholder="Year">
+
+  </form>
+  <div class="Results">
+    <ul>
+      <li>
+        <div *ngIf="hasPaper">
+          <a href = "{{ paperLink }}" target="_blank">
+            Exam Paper
+          </a>
+        </div>
+      </li>
+      <li>
+        <div *ngIf="hasMark">
+          <a href = "{{ markLink }}" target="_blank">
+            Marking Scheme
+          </a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</body>

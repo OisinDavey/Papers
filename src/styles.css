@@ -14,3 +14,122 @@ body {
 a {
   text-decoration: none;
 }
+
+/* TopBar Stuff */
+
+.TopBar ul {
+  list-style-type: none;
+  height: 40px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(68, 142, 207);
+}
+
+.TopBar li {
+  float: left;
+}
+
+.TopBar li a {
+  display: block;
+  color: white;
+  padding: 14px 8px;
+  text-decoration: none;
+  position: relative;
+  bottom: 4px;
+}
+
+.TopBar li a:hover {
+  background-color: #111;
+}
+
+/*Head Stuff*/
+
+.head {
+  left: 0;
+  width: 100%;
+  background-color: rgb(29, 49, 66);
+  color: aliceblue;
+  text-align: left;
+}
+
+.head ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.head li {
+  float: left;
+}
+
+.head li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.head li a.active{
+  background-color: #111;
+}
+
+.head li a:hover {
+  background-color: #111;
+}
+
+.YearBar {
+  color: rgb(68, 142, 207);
+  font-size: 40px;
+  line-height: 40px;
+}
+
+.Title h1 {
+  color: aliceblue;
+}
+
+.inconsolata {
+  font-family: "Inconsolata", Courier, monospace;
+}
+
+.trebuchet {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+input {
+  width: 120px;
+}
+
+input[type=text] {
+  padding: 10px 5px;
+  margin: 0px 0;
+  box-sizing: border-box;
+  border: 2px solid rgb(32, 23, 23);
+  border-radius: 8px;
+  font-size: 20px;
+  height: 32px;
+}
+
+.Results {
+  background-color: rgb(68, 142, 207);
+  list-style-type: none;
+  text-align: center; 
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-size: 20px;
+  height: 85px;
+}
+
+.Results li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.Results a {
+  color: aliceblue;  
+}
