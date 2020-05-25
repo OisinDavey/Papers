@@ -17,6 +17,7 @@ import { HLAppliedMathsComponent } from './higher-level/applied-maths';
 import { HLPhysicsComponent } from './higher-level/physics';
 import { HLDcgComponent } from './higher-level/dcg';
 import { HLIrishComponent } from './higher-level/irish';
+import { HLEnglishComponent} from './higher-level/english';
 
 import { OLHomeComponent } from './ordinary-level/home';
 import { OLEnglishComponent } from './ordinary-level/english';
@@ -41,6 +42,7 @@ import { OLMathsComponent } from './ordinary-level/maths';
     HLPhysicsComponent,
     HLDcgComponent,
     HLIrishComponent,
+    HLEnglishComponent,
 
     OLHomeComponent,
     OLEnglishComponent,

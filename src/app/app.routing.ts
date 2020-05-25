@@ -10,11 +10,12 @@ import { HLAppliedMathsComponent} from './higher-level/applied-maths';
 import { HLPhysicsComponent} from './higher-level/physics';
 import { HLDcgComponent} from './higher-level/dcg';
 import { HLIrishComponent} from './higher-level/irish';
+import { HLEnglishComponent } from './higher-level/english';
 
 import { OLHomeComponent } from './ordinary-level/home';
 import { OLEnglishComponent } from './ordinary-level/english';
 import { OLIrishComponent } from './ordinary-level/irish';
-import { OLMathsComponent } from './ordinary-level/maths/maths.component';
+import { OLMathsComponent } from './ordinary-level/maths';
 
 const routes: Routes = [
     { 
@@ -48,6 +49,10 @@ const routes: Routes = [
         {
           path: 'irish',
           component: HLIrishComponent,
+        },
+        {
+          path: 'english',
+          component: HLEnglishComponent,
         },
         {
           path: '**',
