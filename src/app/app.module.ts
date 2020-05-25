@@ -16,9 +16,12 @@ import { HLMathsComponent } from './higher-level/maths';
 import { HLAppliedMathsComponent } from './higher-level/applied-maths';
 import { HLPhysicsComponent } from './higher-level/physics';
 import { HLDcgComponent } from './higher-level/dcg';
+import { HLIrishComponent } from './higher-level/irish';
 
 import { OLHomeComponent } from './ordinary-level/home';
 import { OLEnglishComponent } from './ordinary-level/english';
+import { OLIrishComponent } from './ordinary-level/irish';
+import { OLMathsComponent } from './ordinary-level/maths';
 
 @NgModule({
   imports:[ 
@@ -37,9 +40,12 @@ import { OLEnglishComponent } from './ordinary-level/english';
     HLAppliedMathsComponent,
     HLPhysicsComponent,
     HLDcgComponent,
+    HLIrishComponent,
 
     OLHomeComponent,
     OLEnglishComponent,
+    OLIrishComponent,
+    OLMathsComponent,
   ],
   providers: [{provide: LocationStrategy, useClass: HashLocationStrategy}],
   bootstrap:[ 

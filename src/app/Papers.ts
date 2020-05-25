@@ -348,6 +348,8 @@ export const HLMathsPapers = [
     link: "https://drive.google.com/open?id=1UlNcocsJNVJ0Exy_5HlhcDTJXOdPARWj",
   },
 ];
+export const HLIrishPapers = [
+];
 export const HLDCGPapers = [
   {
     tipe: "ExamPaper",
@@ -757,4 +759,8 @@ export const HLAppliedMathsPapers = [
   },
 ];
 export const OLEnglishPapers = [
+];
+export const OLIrishPapers = [
+];
+export const OLMathsPapers = [
 ];

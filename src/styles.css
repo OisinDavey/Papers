@@ -19,7 +19,6 @@ a {
 
 .TopBar ul {
   list-style-type: none;
-  height: 40px;
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -28,6 +27,10 @@ a {
 
 .TopBar li {
   float: left;
+  position: relative;
+  height: 30px;
+  width: auto;
+  overflow: auto;
 }
 
 .TopBar li a {
@@ -36,7 +39,7 @@ a {
   padding: 14px 8px;
   text-decoration: none;
   position: relative;
-  bottom: 4px;
+  bottom: 8px;
 }
 
 .TopBar li a:hover {
