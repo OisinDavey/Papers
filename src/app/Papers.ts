@@ -641,6 +641,106 @@ export const HLIrishPapers = [
     year: "2000",
     link: "https://drive.google.com/open?id=10ICeC_yOJWala1d66PkWVUOEcpl3OTID",
   },
+  {
+    tipe: "MarkingScheme",
+    year: "2019",
+    link: "",
+  },
+  {
+    tipe: "MarkingScheme",
+    year: "2018",
+    link: "",
+  },
+  {
+    tipe: "MarkingScheme",
+    year: "2017",
+    link: "",
+  },
+  {
+    tipe: "MarkingScheme",
+    year: "2016",
+    link: "",
+  },
+  {
+    tipe: "MarkingScheme",
+    year: "2015",
+    link: "",
+  },
+  {
+    tipe: "MarkingScheme",
+    year: "2014",
+    link: "",
+  },
+  {
+    tipe: "MarkingScheme",
+    year: "2013",
+    link: "",
+  },
+  {
+    tipe: "MarkingScheme",
+    year: "2012",
+    link: "",
+  },
+  {
+    tipe: "MarkingScheme",
+    year: "2011",
+    link: "",
+  },
+  {
+    tipe: "MarkingScheme",
+    year: "2010",
+    link: "",
+  },
+  {
+    tipe: "MarkingScheme",
+    year: "2009",
+    link: "",
+  },
+  {
+    tipe: "MarkingScheme",
+    year: "2008",
+    link: "",
+  },
+  {
+    tipe: "MarkingScheme",
+    year: "2007",
+    link: "",
+  },
+  {
+    tipe: "MarkingScheme",
+    year: "2006",
+    link: "",
+  },
+  {
+    tipe: "MarkingScheme",
+    year: "2005",
+    link: "",
+  },
+  {
+    tipe: "MarkingScheme",
+    year: "2004",
+    link: "",
+  },
+  {
+    tipe: "MarkingScheme",
+    year: "2003",
+    link: "",
+  },
+  {
+    tipe: "MarkingScheme",
+    year: "2002",
+    link: "",
+  },
+  {
+    tipe: "MarkingScheme",
+    year: "2001",
+    link: "",
+  },
+  {
+    tipe: "MarkingScheme",
+    year: "2000",
+    link: "",
+  },
 ];
 export const HLDCGPapers = [
   {

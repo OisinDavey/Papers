@@ -1,5 +1,6 @@
 import { FormBuilder } from '@angular/forms';
 import { HLIrishPapers } from '../../Papers';
+import { IrishAurals } from '../../Papers';
 import {Component, OnInit} from '@angular/core';
 
 @Component({
@@ -15,10 +16,12 @@ export class HLIrishComponent{
   hasOne = false;
   hasTwo = false;
   hasMark = false;
+  hasAudio = false;
 
   oneLink = "";
   twoLink = "";
   markLink = "";
+  audioLink = "";
 
   constructor(
     private formBuilder: FormBuilder,
@@ -33,9 +36,17 @@ export class HLIrishComponent{
     this.hasOne = false;
     this.hasTwo = false;
     this.hasMark = false;
+    this.hasAudio = false;
+
+    for (var audio of IrishAurals){
+      if( audio.year == this.year ){
+        this.hasAudio = true;
+        this.audioLink = audio.link;
+      }
+    }
 
     for (var paper of HLIrishPapers){
-      if ( (paper.year == this.year) ){
+      if ( paper.year == this.year ){
         if(paper.tipe == "ExamPaper"){
           if(paper.paper == "One"){
             this.hasOne = true;

@@ -27,6 +27,13 @@
         </div>
       </li>
       <li>
+        <div *ngIf="hasAudio">
+          <a href = "{{ audioLink }}" target="_blank">
+            Aural
+          </a>
+        </div>
+      </li>
+      <li>
         <div *ngIf="hasMark">
           <a href = "{{ markLink }}" target="_blank">
             Marking Scheme
