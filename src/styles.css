@@ -15,6 +15,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  opacity: 80%;
+}
+
 /* TopBar Stuff */
 
 .TopBar ul {
