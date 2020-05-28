@@ -1,5 +1,5 @@
 import { FormBuilder } from '@angular/forms';
-import { OLIrishPapers } from '../../Papers';
+import { OLIrishPapers } from '../../Papers/OLIrishPapers';
 import {Component, OnInit} from '@angular/core';
 
 @Component({

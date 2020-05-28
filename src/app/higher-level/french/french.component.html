@@ -1,0 +1,45 @@
+<body>
+
+  <div class="Title">
+    <h1>French Papers</h1>
+  </div>
+
+  <form [formGroup]="checkoutForm" (ngSubmit)="onSubmit()">
+
+    <input id="year" type="text" formControlName="year" placeholder="Year">
+
+  </form>
+  
+  <div class="Results">
+    <ul>
+      <li>
+        <div *ngIf="hasPaper">
+          <a href = "{{ paperLink }}" target="_blank">
+            Paper
+          </a>
+        </div>
+      </li>
+      <li>
+        <div *ngIf="hasAural">
+          <a href = "{{ auralLink }}" target="_blank">
+            Aural Paper
+          </a>
+        </div>
+      </li>
+      <li>
+        <div *ngIf="hasSound">
+          <a href = "{{ soundLink }}" target="_blank">
+            Sound File
+          </a>
+        </div>
+      </li>
+      <li>
+        <div *ngIf="hasMark">
+          <a href = "{{ markLink }}" target="_blank">
+            Marking Scheme
+          </a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</body>

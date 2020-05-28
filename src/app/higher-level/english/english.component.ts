@@ -1,5 +1,5 @@
 import { FormBuilder } from '@angular/forms';
-import { HLEnglishPapers } from '../../Papers';
+import { HLEnglishPapers } from '../../Papers/HLEnglishPapers';
 import {Component, OnInit} from '@angular/core';
 
 @Component({

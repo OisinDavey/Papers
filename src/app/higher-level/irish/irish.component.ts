@@ -1,6 +1,6 @@
 import { FormBuilder } from '@angular/forms';
-import { HLIrishPapers } from '../../Papers';
-import { IrishAurals } from '../../Papers';
+import { HLIrishPapers } from '../../Papers/HLIrishPapers';
+import { SoundFilesIrish } from '../../Papers/SoundFilesIrish';
 import {Component, OnInit} from '@angular/core';
 
 @Component({
@@ -38,7 +38,7 @@ export class HLIrishComponent{
     this.hasMark = false;
     this.hasAudio = false;
 
-    for (var audio of IrishAurals){
+    for (var audio of SoundFilesIrish){
       if( audio.year == this.year ){
         this.hasAudio = true;
         this.audioLink = audio.link;

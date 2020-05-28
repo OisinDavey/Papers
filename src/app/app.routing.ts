@@ -11,11 +11,13 @@ import { HLPhysicsComponent} from './higher-level/physics';
 import { HLDcgComponent} from './higher-level/dcg';
 import { HLIrishComponent} from './higher-level/irish';
 import { HLEnglishComponent } from './higher-level/english';
+import { HLFrenchComponent } from './higher-level/french';
 
 import { OLHomeComponent } from './ordinary-level/home';
 import { OLEnglishComponent } from './ordinary-level/english';
 import { OLIrishComponent } from './ordinary-level/irish';
 import { OLMathsComponent } from './ordinary-level/maths';
+import { OLFrenchComponent } from './ordinary-level/french/french.component';
 
 const routes: Routes = [
     { 
@@ -29,6 +31,10 @@ const routes: Routes = [
         {
           path: 'home',
           component: HLHomeComponent,
+        },
+        {
+          path: 'french',
+          component: HLFrenchComponent,
         },
         {
           path: 'applied-maths',
@@ -68,6 +74,10 @@ const routes: Routes = [
         {
           path: 'home',
           component: OLHomeComponent,
+        },
+        {
+          path: 'french',
+          component: OLFrenchComponent,
         },
         {
           path: 'english',
