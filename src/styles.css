@@ -87,6 +87,16 @@ a:hover {
   background-color: #111;
 }
 
+/* Cp notes being on the right of the bar */
+.head li.cp-notes-link {
+  float: right;
+}
+
+.head li.active-cp-notes-link {
+  float: right;
+  background-color: #111;
+}
+
 .YearBar {
   color: rgb(68, 142, 207);
   font-size: 40px;
