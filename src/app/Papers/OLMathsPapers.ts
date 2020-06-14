@@ -1,3 +1,1 @@
-export const OLMathsPapers = [
-  
-]
+export const OLMathsPapers = []

@@ -1,3 +1,1 @@
-export const OLIrishPapers = [
-  
-]
+export const OLIrishPapers = []

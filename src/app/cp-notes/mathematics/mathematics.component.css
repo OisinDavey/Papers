@@ -1,0 +1,19 @@
+p {
+  color: rgb(133, 143, 152);
+}
+
+h3 {
+  color: rgb(196, 203, 209);
+}
+
+li {
+  list-style-type: none;
+}
+
+h3.bold{
+  font-weight: bold;
+}
+
+h1 {
+  color: rgb(196, 203, 209);
+}
