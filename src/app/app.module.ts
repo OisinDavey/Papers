@@ -20,13 +20,11 @@ import { HLPhysicsComponent } from './higher-level/physics';
 import { HLDcgComponent } from './higher-level/dcg';
 import { HLIrishComponent } from './higher-level/irish';
 import { HLEnglishComponent} from './higher-level/english';
-import { HLFrenchComponent } from './higher-level/french';
 
 import { OLHomeComponent } from './ordinary-level/home';
 import { OLEnglishComponent } from './ordinary-level/english';
 import { OLIrishComponent } from './ordinary-level/irish';
 import { OLMathsComponent } from './ordinary-level/maths';
-import { OLFrenchComponent } from './ordinary-level/french';
 
 import { CpHomeComponent } from './cp-notes/home';
 import { CpGraphsComponent } from './cp-notes/graphs';
@@ -52,13 +50,11 @@ import { CpMathematicsComponent } from './cp-notes/mathematics';
     HLDcgComponent,
     HLIrishComponent,
     HLEnglishComponent,
-	HLFrenchComponent,
 
     OLHomeComponent,
     OLEnglishComponent,
     OLIrishComponent,
     OLMathsComponent,
-	OLFrenchComponent,
 
     CpHomeComponent,
     CpGraphsComponent,

@@ -11,13 +11,16 @@ import { HLPhysicsComponent} from './higher-level/physics';
 import { HLDcgComponent} from './higher-level/dcg';
 import { HLIrishComponent} from './higher-level/irish';
 import { HLEnglishComponent } from './higher-level/english';
-import { HLFrenchComponent } from './higher-level/french';
 
 import { OLHomeComponent } from './ordinary-level/home';
 import { OLEnglishComponent } from './ordinary-level/english';
 import { OLIrishComponent } from './ordinary-level/irish';
 import { OLMathsComponent } from './ordinary-level/maths';
-import { OLFrenchComponent } from './ordinary-level/french/french.component';
+
+import { CpNotesComponent } from './cp-notes';
+import { CpHomeComponent } from './cp-notes/home'
+import { CpGraphsComponent } from './cp-notes/graphs'
+import { CpMathematicsComponent } from './cp-notes/mathematics'
 
 const routes: Routes = [
     { 
@@ -31,10 +34,6 @@ const routes: Routes = [
         {
           path: 'home',
           component: HLHomeComponent,
-        },
-        {
-          path: 'french',
-          component: HLFrenchComponent,
         },
         {
           path: 'applied-maths',
@@ -76,10 +75,6 @@ const routes: Routes = [
           component: OLHomeComponent,
         },
         {
-          path: 'french',
-          component: OLFrenchComponent,
-        },
-        {
           path: 'english',
           component: OLEnglishComponent,
         },
@@ -97,6 +92,29 @@ const routes: Routes = [
           pathMatch: 'full'
         },
       ],
+    },
+    {
+      path: 'cp-notes',
+      component: CpNotesComponent,
+      children: [
+        {
+          path: 'home',
+          component: CpHomeComponent,
+        },
+        {
+          path: 'graphs',
+          component: CpGraphsComponent,
+        },
+        {
+          path: 'mathematics',
+          component:CpMathematicsComponent,
+        },
+        {
+          path: '**',
+          redirectTo: 'home',
+          pathMatch: 'full'
+        },
+      ]
     },
 
     // otherwise redirect to home
