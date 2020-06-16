@@ -29,6 +29,7 @@ import { OLMathsComponent } from './ordinary-level/maths';
 import { CpHomeComponent } from './cp-notes/home';
 import { CpGraphsComponent } from './cp-notes/graphs';
 import { CpMathematicsComponent } from './cp-notes/mathematics';
+import { CpBinarySearchComponent } from './cp-notes/binary-search';
 
 @NgModule({
   imports:[ 
@@ -59,6 +60,7 @@ import { CpMathematicsComponent } from './cp-notes/mathematics';
     CpHomeComponent,
     CpGraphsComponent,
     CpMathematicsComponent,
+    CpBinarySearchComponent,
   ],
   providers: [{provide: LocationStrategy, useClass: HashLocationStrategy}],
   bootstrap:[ 

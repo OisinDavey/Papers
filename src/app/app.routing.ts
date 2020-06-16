@@ -18,9 +18,10 @@ import { OLIrishComponent } from './ordinary-level/irish';
 import { OLMathsComponent } from './ordinary-level/maths';
 
 import { CpNotesComponent } from './cp-notes';
-import { CpHomeComponent } from './cp-notes/home'
-import { CpGraphsComponent } from './cp-notes/graphs'
-import { CpMathematicsComponent } from './cp-notes/mathematics'
+import { CpHomeComponent } from './cp-notes/home';
+import { CpGraphsComponent } from './cp-notes/graphs';
+import { CpMathematicsComponent } from './cp-notes/mathematics';
+import { CpBinarySearchComponent } from './cp-notes/binary-search';
 
 const routes: Routes = [
     { 
@@ -108,6 +109,10 @@ const routes: Routes = [
         {
           path: 'mathematics',
           component:CpMathematicsComponent,
+        },
+        {
+          path: 'binary-search',
+          component: CpBinarySearchComponent,
         },
         {
           path: '**',
