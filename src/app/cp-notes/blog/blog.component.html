@@ -1,0 +1,31 @@
+<div id="celtic-symmetry">
+  <h1>Celtic Symmetry</h1>
+  <ul>
+    <li>
+      <h3 class = "bold">17 / 06 / 2020</h3>
+      <p>Today I looked over the 2015 AIPO national finals questions to try my hand at a problem I'd heard of before, my brother had tried to do this problem in 2016 as practice but couldn't make it. However he was new to competitive programming so I figured it'd be fine</p>
+    </li>
+    <li>
+      <p>The question reads as follows: </p>
+      <div class = "wide-code"><code><pre>{{ celtic_symmetry_statement }}</pre></code></div>
+      <p>In short, given a list of lattice points, output the number of distinct valid lines of symmetry, when I read this I figured out soon enough what I wanted to do,</p>
+      <p>I claim that any line of symmetery passes through either a vertex on the convex hull, or an edge midpoint of the convex hull, and that every line of symmetry passes through the center of mass of the points</p>
+      <p>There are many algorithms to find the convex hull in linear time, but I prefer the monotone chain algorithm, because it's really quite simple to implement</p>
+      <p>For every one of our generated valid points, we can pass a line through this point and the center of mass, and check for every other point whether or not it reflects over the line to a valid point</p>
+      <p>The question becomes, how can we find out where the reflected point ends up?</p>
+      <p>Luckily for me, there are handy formulae for this!</p>
+      <h3>For a line that passes through the origin,</h3>
+      <p>A is the point being reflected</p>
+      <p>L is any point on the line</p>
+      <div class = "code"><code><pre>{{ formula_1 }}</pre></code></div>
+      <p>We can act as though that the centre of mass is the origin and then transform points around it to make use of the formula!</p>
+      <h3>Writing the code</h3>
+      <p>This was much more difficult than I thought it would have been, and in the end my code runs with time complexity O(N²logN)</p>
+      <p>This is because when I reflect the points across, I have to do a lookup in a set of points to check if it's valid, which takes logN time</p>
+      <p>At the same time, I had to deal with many many floating point precision errors, and made frequent use of my epsilon constant, wasn't fun but eventually, after working for far too long at it, I implemented a solution that passes 100% of the testcases</p>
+      <p>
+        _
+      </p>
+    </li>
+  </ul>
+</div>

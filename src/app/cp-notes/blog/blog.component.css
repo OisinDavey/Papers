@@ -1,0 +1,39 @@
+p {
+  color: rgb(133, 143, 152);
+}
+
+h3 {
+  color: rgb(196, 203, 209);
+}
+
+li {
+  list-style-type: none;
+}
+
+h3.bold{
+  font-weight: bold;
+}
+
+h1 {
+  color: rgb(196, 203, 209);
+}
+
+.wide-code {
+  color: rgb(255, 238, 215);
+  font-weight: 500;
+  border-radius: 10px 25px;
+  background: rgb(59, 59, 59);
+  padding: 10px;
+  box-sizing: border-box;
+  width: 600px;
+}
+
+.code {
+  color: rgb(255, 238, 215);
+  font-weight: 500;
+  border-radius: 10px 25px;
+  background: rgb(59, 59, 59);
+  padding: 10px;
+  box-sizing: border-box;
+  width: 300px;
+}

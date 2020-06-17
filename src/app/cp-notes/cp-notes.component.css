@@ -2,3 +2,6 @@ a {
   color: rgb(68, 142, 207);
 }
 
+li.blog-link{
+  float: right;
+}

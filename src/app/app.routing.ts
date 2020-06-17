@@ -22,6 +22,7 @@ import { CpHomeComponent } from './cp-notes/home';
 import { CpGraphsComponent } from './cp-notes/graphs';
 import { CpMathematicsComponent } from './cp-notes/mathematics';
 import { CpBinarySearchComponent } from './cp-notes/binary-search';
+import { CpBlogComponent } from './cp-notes/blog';
 
 const routes: Routes = [
     { 
@@ -113,6 +114,10 @@ const routes: Routes = [
         {
           path: 'binary-search',
           component: CpBinarySearchComponent,
+        },
+        {
+          path: 'blog',
+          component: CpBlogComponent,
         },
         {
           path: '**',

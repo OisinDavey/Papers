@@ -30,6 +30,7 @@ import { CpHomeComponent } from './cp-notes/home';
 import { CpGraphsComponent } from './cp-notes/graphs';
 import { CpMathematicsComponent } from './cp-notes/mathematics';
 import { CpBinarySearchComponent } from './cp-notes/binary-search';
+import { CpBlogComponent } from './cp-notes/blog';
 
 @NgModule({
   imports:[ 
@@ -61,6 +62,7 @@ import { CpBinarySearchComponent } from './cp-notes/binary-search';
     CpGraphsComponent,
     CpMathematicsComponent,
     CpBinarySearchComponent,
+    CpBlogComponent,
   ],
   providers: [{provide: LocationStrategy, useClass: HashLocationStrategy}],
   bootstrap:[ 
